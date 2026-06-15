@@ -1,22 +1,20 @@
-# AgriQuantum-AI
-Quantum-Enhanced Plant Disease Detection and Analysis
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-AgriQuantum AI is an innovative agricultural intelligence platform that combines Artificial Intelligence (AI) and Quantum Computing to identify plant diseases from leaf images with enhanced computational efficiency and predictive accuracy.
+# Run and deploy your AI Studio app
 
-By leveraging IBM Quantum's Qiskit framework, the system processes scanned leaf images through quantum-inspired machine learning pipelines to predict:
+This contains everything you need to run your app locally.
 
-🌱 Plant/Specimen Name
-🦠 Disease Type
-📊 Disease Severity Level
-💡 Recommended Agricultural Insights
+View your app in AI Studio: https://ai.studio/apps/21653c47-05fe-4b23-a94c-ec27afa589fa
 
-This project bridges the gap between cutting-edge quantum technologies and real-world agricultural challenges, empowering farmers, researchers, and agronomists with faster and smarter disease diagnosis.
+## Run Locally
 
-🚀 Features
-Quantum-enhanced disease classification
-Real-time leaf image analysis
-Plant species identification
-Disease severity assessment
-AI-powered prediction engine
-User-friendly web application
-Scalable architecture for future quantum hardware integration
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

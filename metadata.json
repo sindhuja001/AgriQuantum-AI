@@ -1,0 +1,12 @@
+{
+  "name": "AgriQuantum AI",
+  "description": "Advanced Plant Health Intelligence & Analytics Platform combining AI species identification, disease diagnostics, and quantum risk modeling.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "Image Analysis",
+    "Quantum Simulation",
+    "Predictive Analytics"
+  ]
+}
